@@ -812,7 +812,7 @@ export class Safe4337Pack extends RelayKitBasePack<{
             tokens: [tokenAddress]
           },
           this.#ENTRYPOINT_ADDRESS,
-          '0x1'
+          '0x' + this.#chainId.toString(16)
         ]
       })
 
