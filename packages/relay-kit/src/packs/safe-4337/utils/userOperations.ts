@@ -1,4 +1,4 @@
-import Safe from '@safe-global/protocol-kit'
+import Safe from '@wdk-safe-global/protocol-kit'
 import { encodeFunctionData, getAddress, Hex, hexToBytes, sliceHex, toHex } from 'viem'
 import {
   MetaTransactionData,
@@ -11,13 +11,13 @@ import {
   isEntryPointV6,
   isEntryPointV7,
   encodeMultiSendCallData
-} from '@safe-global/relay-kit/packs/safe-4337/utils'
-import { ABI } from '@safe-global/relay-kit/packs/safe-4337/constants'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/utils'
+import { ABI } from '@wdk-safe-global/relay-kit/packs/safe-4337/constants'
 import {
   ERC20PaymasterOption,
   PaymasterOptions,
   UserOperationStringValues
-} from '@safe-global/relay-kit/packs/safe-4337/types'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/types'
 
 /**
  * Encode the UserOperation execution from a transaction.

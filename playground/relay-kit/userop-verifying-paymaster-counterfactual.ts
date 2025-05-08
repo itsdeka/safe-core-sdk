@@ -1,5 +1,5 @@
 import * as dotenv from 'dotenv'
-import { Safe4337Pack } from '@safe-global/relay-kit'
+import { Safe4337Pack } from '@wdk-safe-global/relay-kit'
 import { setup4337Playground, waitForOperationToFinish } from '../utils'
 import { privateKeyToAccount } from 'viem/accounts'
 
