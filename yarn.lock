@@ -2266,8 +2266,8 @@
     "@uniswap/v3-core" "^1.0.0"
     base64-sol "1.0.1"
 
-"@wdk-safe-global/protocol-kit@^6.0.5", "@wdk-safe-global/protocol-kit@file:/home/rck/Work/tether/itsdeka/safe-core-sdk/packages/protocol-kit":
-  version "6.0.5"
+"@wdk-safe-global/protocol-kit@^6.0.6", "@wdk-safe-global/protocol-kit@file:/home/rck/Work/tether/itsdeka/safe-core-sdk/packages/protocol-kit":
+  version "6.0.6"
   resolved "file:packages/protocol-kit"
   dependencies:
     "@safe-global/safe-deployments" "^1.37.32"
@@ -2281,13 +2281,13 @@
     "@peculiar/asn1-schema" "^2.3.13"
 
 "@wdk-safe-global/relay-kit@file:/home/rck/Work/tether/itsdeka/safe-core-sdk/packages/relay-kit":
-  version "4.0.4"
+  version "4.0.6"
   resolved "file:packages/relay-kit"
   dependencies:
     "@gelatonetwork/relay-sdk" "^5.6.0"
     "@safe-global/safe-modules-deployments" "^2.2.7"
     "@safe-global/types-kit" "^2.0.1"
-    "@wdk-safe-global/protocol-kit" "^6.0.4"
+    "@wdk-safe-global/protocol-kit" "^6.0.6"
     semver "^7.7.1"
     viem "^2.21.8"
 
