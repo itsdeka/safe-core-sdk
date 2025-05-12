@@ -2266,8 +2266,8 @@
     "@uniswap/v3-core" "^1.0.0"
     base64-sol "1.0.1"
 
-"@wdk-safe-global/protocol-kit@^6.0.4", "@wdk-safe-global/protocol-kit@file:/home/rck/Work/tether/itsdeka/safe-core-sdk/packages/protocol-kit":
-  version "6.0.4"
+"@wdk-safe-global/protocol-kit@^6.0.5", "@wdk-safe-global/protocol-kit@file:/home/rck/Work/tether/itsdeka/safe-core-sdk/packages/protocol-kit":
+  version "6.0.5"
   resolved "file:packages/protocol-kit"
   dependencies:
     "@safe-global/safe-deployments" "^1.37.32"
