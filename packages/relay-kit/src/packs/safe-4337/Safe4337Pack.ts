@@ -7,8 +7,8 @@ import Safe, {
   PasskeyClient,
   SafeProvider,
   generateOnChainIdentifier
-} from '@safe-global/protocol-kit'
-import { RelayKitBasePack } from '@safe-global/relay-kit/RelayKitBasePack'
+} from '@wdk-safe-global/protocol-kit'
+import { RelayKitBasePack } from '@wdk-safe-global/relay-kit/RelayKitBasePack'
 import {
   OperationType,
   SafeOperationConfirmation,
@@ -22,8 +22,8 @@ import {
   getSafeWebAuthnShareSignerDeployment
 } from '@safe-global/safe-modules-deployments'
 import { Hash, encodeFunctionData, zeroAddress, Hex, concat } from 'viem'
-import BaseSafeOperation from '@safe-global/relay-kit/packs/safe-4337/BaseSafeOperation'
-import SafeOperationFactory from '@safe-global/relay-kit/packs/safe-4337/SafeOperationFactory'
+import BaseSafeOperation from '@wdk-safe-global/relay-kit/packs/safe-4337/BaseSafeOperation'
+import SafeOperationFactory from '@wdk-safe-global/relay-kit/packs/safe-4337/SafeOperationFactory'
 import {
   EstimateFeeProps,
   Safe4337CreateTransactionProps,
@@ -34,13 +34,13 @@ import {
   UserOperationWithPayload,
   PaymasterOptions,
   BundlerClient
-} from '@safe-global/relay-kit/packs/safe-4337/types'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/types'
 import {
   ABI,
   DEFAULT_SAFE_VERSION,
   DEFAULT_SAFE_MODULES_VERSION,
   RPC_4337_CALLS
-} from '@safe-global/relay-kit/packs/safe-4337/constants'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/constants'
 import {
   entryPointToSafeModules,
   getDummySignature,
@@ -48,8 +48,8 @@ import {
   userOperationToHexValues,
   getRelayKitVersion,
   createUserOperation
-} from '@safe-global/relay-kit/packs/safe-4337/utils'
-import { PimlicoFeeEstimator } from '@safe-global/relay-kit/packs/safe-4337/estimators/pimlico/PimlicoFeeEstimator'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/utils'
+import { PimlicoFeeEstimator } from '@wdk-safe-global/relay-kit/packs/safe-4337/estimators/pimlico/PimlicoFeeEstimator'
 
 const MAX_ERC20_AMOUNT_TO_APPROVE =
   0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn

@@ -1,5 +1,5 @@
-import { UserOperationStringValues } from '@safe-global/relay-kit/packs/safe-4337/types'
-import { RPC_4337_CALLS } from '@safe-global/relay-kit/packs/safe-4337/constants'
+import { UserOperationStringValues } from '@wdk-safe-global/relay-kit/packs/safe-4337/types'
+import { RPC_4337_CALLS } from '@wdk-safe-global/relay-kit/packs/safe-4337/constants'
 
 export type GetPaymasterStubDataRpcSchema = [
   {
