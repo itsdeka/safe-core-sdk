@@ -3,7 +3,7 @@ import Safe, {
   DeploymentType,
   SafeProviderConfig,
   OnchainAnalyticsProps
-} from '@safe-global/protocol-kit'
+} from '@wdk-safe-global/protocol-kit'
 import {
   EstimateGasData,
   MetaTransactionData,
@@ -11,8 +11,8 @@ import {
   SafeVersion,
   UserOperation
 } from '@safe-global/types-kit'
-import BaseSafeOperation from '@safe-global/relay-kit/packs/safe-4337/BaseSafeOperation'
-import { RPC_4337_CALLS } from '@safe-global/relay-kit/packs/safe-4337/constants'
+import BaseSafeOperation from '@wdk-safe-global/relay-kit/packs/safe-4337/BaseSafeOperation'
+import { RPC_4337_CALLS } from '@wdk-safe-global/relay-kit/packs/safe-4337/constants'
 
 type ExistingSafeOptions = {
   safeAddress: string

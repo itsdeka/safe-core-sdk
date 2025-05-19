@@ -3,13 +3,13 @@ import {
   EstimateFeeFunctionProps,
   IFeeEstimator,
   UserOperationStringValues
-} from '@safe-global/relay-kit/packs/safe-4337/types'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/types'
 import { createPublicClient, http } from 'viem'
 import {
   createBundlerClient,
   userOperationToHexValues
-} from '@safe-global/relay-kit/packs/safe-4337/utils'
-import { RPC_4337_CALLS } from '@safe-global/relay-kit/packs/safe-4337/constants'
+} from '@wdk-safe-global/relay-kit/packs/safe-4337/utils'
+import { RPC_4337_CALLS } from '@wdk-safe-global/relay-kit/packs/safe-4337/constants'
 import { PaymasterRpcSchema } from './types'
 
 /**
